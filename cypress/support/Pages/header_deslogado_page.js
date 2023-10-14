@@ -1,23 +1,6 @@
 export default {
 
-    validaMensagemPromocao() {
-        cy.get('.top_header_left > p')
-            .should('have.text', 'Promoções especiais disponíveis.Aproveitar...')
-    },
-
-    validaRedirecionamentoAproveitar() {
-        cy.get('.top_header_left > p')
-            .contains('Aproveitar...')
-            .click()
-        cy.get('.product_shot_title > p')
-            .should('have.text', 'Sort By:')
-    },
-
-    validaCorAproveitar() {
-        cy.get('p > a')
-            .should('have.css', 'color', 'rgb(0, 200, 207)')
-    },
-
+    // funções de validação da parte do header que é especifica apenas da área deslogada
     validarOpcaoLoginVisivel() {
         cy.get('.right_list_fix > li > a')
             .contains('Login')
