@@ -8,23 +8,23 @@ export default {
         cy.get(' li > a > .logo').should('be.visible')
     },
 
-//Valida se o header está visível
+    //Valida se o header está visível
     validaHeaderVisivel() {
         cy.get('#top_header')
             .should('be.visible')
     },
 
 
-// Aqui serão feitas as funções da parte do header que é comum tanto para área logada quanto para área deslogada
+    // Aqui serão feitas as funções da parte do header que é comum tanto para área logada quanto para área deslogada
 
- 
-//Valida mensagem de Promoção no canto superior esquerdo
+
+    //Valida mensagem de Promoção no canto superior esquerdo
     validaMensagemPromocao() {
         cy.get('.top_header_left > p')
             .should('have.text', 'Promoções especiais disponíveis.Aproveitar...')
     },
 
-//Valida redirecionamento do link 'Aproveitar' dentro da frase de promoções
+    //Valida redirecionamento do link 'Aproveitar' dentro da frase de promoções
     validaRedirecionamentoAproveitar() {
         cy.get('.top_header_left > p')
             .contains('Aproveitar...')
@@ -33,7 +33,7 @@ export default {
             .should('have.text', 'Sort By:')
     },
 
-//Valida a cor do link 'Aproveitar'
+    //Valida a cor do link 'Aproveitar'
     validaCorAproveitar() {
         cy.get('p > a')
             .should('have.css', 'color', 'rgb(0, 200, 207)')

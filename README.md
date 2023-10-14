@@ -4,6 +4,8 @@ Projeto Cypress 002: Validação header com e sem login de usuário e também va
 💡 Esse é um projeto próprio e feito do zero que consiste em automatizar os fluxos do header do site QAZando que tem duas versões: Usuário deslogado e usuário logado. Além disso, irei validar também a página 'Entre em Contato'.
 Link do site:  https://automationpratice.com.br/
 
+💡 **Objetivo do Projeto**: Faz algum tempo que eu estudo Cypress. No entanto, sinto que precisava de um projeto próprio e feito do zero para demonstrar conhecimento sobre o framework. Sinto que ficar enchendo o repositório de projetos de cursos talvez não seja a forma mais eficaz. Portanto, ainda que o projeto leve algum tempo para se tornar bem bacana, desde a escrita de requisitos até a implementação dos cenários, acredito que é a melhor maneira de me desafiar e mostrar as pessoas interessadas o meu processo de evolução. Além disso, ressalto sempre que estou em processo de aprendizado, então se você chegar aqui e tiver alguma dica de melhoria, entre em contato. ;)
+
 📌 Seguem algumas informações do projeto: 
 
 💡 Projeto desenvolvido em padrão Page Objects utilizando funções do JavaScript.
@@ -12,27 +14,31 @@ Link do site:  https://automationpratice.com.br/
 
 📌 **O que foi feito até o momento:**
 
-✅ Simulação de escrita de requisitos do header sem login: https://docs.google.com/document/d/16mRGoGVqPzPToMSuWISCN9x5b4GT6Jzn_jVLputOWVU/edit?usp=sharing
+✅ Simulação de escrita de requisitos do header com e sem login: https://docs.google.com/document/d/16mRGoGVqPzPToMSuWISCN9x5b4GT6Jzn_jVLputOWVU/edit?usp=sharing
 
-✅ Escrita dos cenários de Testes do header sem login: https://docs.google.com/spreadsheets/d/1pX3kLjYLo7gWFXqZVTFu0mZcjnMpZWAJjplTsEBdWso/edit?usp=sharing
+✅ Escrita dos cenários de Testes do header com e sem login: https://docs.google.com/spreadsheets/d/1pX3kLjYLo7gWFXqZVTFu0mZcjnMpZWAJjplTsEBdWso/edit?usp=sharing
 
-✅ Desenvolvimento dos cenários de Teste do header sem login.
+✅ Desenvolvimento dos cenários de Teste do header com e sem login.
 
 📌 **O que ainda será feito:**
 
-🖥️ Simulação e escrita dos requisitos do header logado e da página Entre em contato;
+🖥️ Simulação e escrita dos requisitos da página Entre em contato;
 
-🖥️ Escrita dos cenários do header logado e da página Entre em contato;
+🖥️ Escrita dos cenários da página Entre em contato;
 
-🖥️ Implementação dos cenários de testes do header logado e da página Entre em contato;
+🖥️ Implementação dos cenários de testes da página Entre em contato;
 
 🖥️ Melhoria do código já existente de forma a separar os elementos dos métodos em Pages;
+
+🖥️ Verificação com mais atenção na parte de opções do usuário no header logado ao clicar no e-mail, já que tive um pouco de dificuldade para validar tais opções e acredito que pode haver melhorias. No momento, tal ponto funciona e não apresenta falhas, mas acredito que na próxima rodada de tempo para esse projeto seja importante olhar com mais atenção o código e verificar se há outras alternativas.
+
+🖥️ Por enquanto, o código possui comentários nas partes mais criticas. Na próxima rodada de tempo para esse projeto irei inserir mais comentários para tornar o projeto de mais fácil entendimento.
 
 🖥️ Instalação do relatório mochawesome
 
 📌 **Os cenários de testes podem ser encontrados dentro da pasta e2e.**
 
-📌 **Já dentro da pasta support/Pages podem ser encontrados os métodos.**
+📌 **Já dentro da pasta support/Pages podem ser encontrados as Pages**
 
 🖥️ **Instalação do Projeto**
 
@@ -49,5 +55,8 @@ Link do site:  https://automationpratice.com.br/
 
 5. Execute o seguinte comando para abrir o Cypress:
      * npx cypress open
+
+6. Execute o seguinte comando para instalar o faker.js:
+    * npm install @faker-js/faker --save-dev
        
-💡 Ressalto mais uma vez que esse projeto está em processo inicial e encontra-se atualmente na primeira versão. Com certeza, haverão melhorias de requisitos, escrita de cenários e implementação de testes. No entanto, acredito já ser válido estar no repositório.
+💡 Ressalto mais uma vez que esse projeto está em processo inicial e encontra-se atualmente na segunda versão. Com certeza, haverão melhorias de requisitos, escrita de cenários e implementação de testes. No entanto, acredito já ser válido estar no repositório.

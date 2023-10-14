@@ -3,8 +3,8 @@
 
 export default {
 
-//Nesse ponto serão implementadas as funções para fazer um cadastro de usuário 
-    
+    //Nesse ponto serão implementadas as funções para fazer um cadastro de usuário 
+
     acessarTelaCadastro() {
         cy.get('.fa-lock').click()
     },
@@ -21,7 +21,7 @@ export default {
         cy.get('#password').type(senha)
     },
 
-//Nesse ponto serão implementadas as funções para fazer o login no site
+    //Nesse ponto serão implementadas as funções para fazer o login no site
 
     acessaLogin() {
         cy.get('.fa-user').click()
@@ -39,73 +39,73 @@ export default {
         cy.get('.swal2-confirm').click()
     },
 
-//Nesse pontos serão implementadas as funções para validar a parte logada do header 
+    //Nesse pontos serão implementadas as funções para validar a parte logada do header 
 
-validarOpcaoAcompanheSeuPedidoVisivel() {
-    cy.get('.right_list_fix > li > a')
-        .contains('Acompanhe seu pedido')
-        .should('be.visible')
-},
+    validarOpcaoAcompanheSeuPedidoVisivel() {
+        cy.get('.right_list_fix > li > a')
+            .contains('Acompanhe seu pedido')
+            .should('be.visible')
+    },
 
-validaRedirecionamentoAcompanheSeuPedido() {
-    cy.get('.right_list_fix > li > a')
-        .contains('Acompanhe seu pedido')
-        .click()
-    cy.get('.order_tracking_wrapper > h4')
-        .should('have.text', 'Order Tracking')
-},
+    validaRedirecionamentoAcompanheSeuPedido() {
+        cy.get('.right_list_fix > li > a')
+            .contains('Acompanhe seu pedido')
+            .click()
+        cy.get('.order_tracking_wrapper > h4')
+            .should('have.text', 'Order Tracking')
+    },
 
-validaIconeAcompanheSeuPedido() {
-    cy.get('.fa-truck')
-        .should('be.visible')
-},
+    validaIconeAcompanheSeuPedido() {
+        cy.get('.fa-truck')
+            .should('be.visible')
+    },
 
-validaEmailEmTela(email) {
-    cy.get('#userLogged')
-        .should('contain', email)
-},
+    validaEmailEmTela(email) {
+        cy.get('#userLogged')
+            .should('contain', email)
+    },
 
-validaOpcoesPainel() {
+    validaOpcoesPainel() {
         //busca ícone ao lado do e-mail e clica nele para acessar a lista de opções
         cy.get('#userLogged > .fa-angle-down')
             .click()
         //clica na opção Meus pedidos
         cy.get('#userLogged > ul > li:nth-child(2) > a')
-          .click({force: true})
-       //busca ícone ao lado do e-mail e clica nele para acessar a lista de opções
+            .click({ force: true })
+        //busca ícone ao lado do e-mail e clica nele para acessar a lista de opções
         cy.get('#userLogged > .fa-angle-down')
             .click()
         //Clica na opção Painel
         cy.get('#userLogged > ul > li:nth-child(1) > a')
-            .click({force: true})
+            .click({ force: true })
         cy.get('.vendor_top_box > h4')
             .should('contain', 'Total Orders')
     },
 
-validaOpcaoMeusPedidos() {
-    //busca ícone ao lado do e-mail e clica nele para acessar a lista de opções
-    cy.get('#userLogged > .fa-angle-down')
-        .click()
-    //clica na opção Meus pedidos
-    cy.get('#userLogged > ul > li:nth-child(2) > a')
-        .click({force: true})
-    //verifica se fez o redirecionamento corretamente
-    cy.get('.myaccount-content > h4')
-        .should('have.text', 'Orders ')
-},
+    validaOpcaoMeusPedidos() {
+        //busca ícone ao lado do e-mail e clica nele para acessar a lista de opções
+        cy.get('#userLogged > .fa-angle-down')
+            .click()
+        //clica na opção Meus pedidos
+        cy.get('#userLogged > ul > li:nth-child(2) > a')
+            .click({ force: true })
+        //verifica se fez o redirecionamento corretamente
+        cy.get('.myaccount-content > h4')
+            .should('have.text', 'Orders ')
+    },
 
-validaOpcaoLogoff() {
-     //busca ícone ao lado do e-mail e clica nele para acessar a lista de opções
-    cy.get('#userLogged > .fa-angle-down')
-        .click()
-    //clica na opção Sair
-    cy.get('#userLogged > ul > li:nth-child(3) > a')
-        .click({force: true})
-    //Verifica se o logout foi realizado
-    cy.get('#swal2-title')
-        .should('contain', 'Logout realizado')
-}
-    
+    validaOpcaoLogoff() {
+        //busca ícone ao lado do e-mail e clica nele para acessar a lista de opções
+        cy.get('#userLogged > .fa-angle-down')
+            .click()
+        //clica na opção Sair
+        cy.get('#userLogged > ul > li:nth-child(3) > a')
+            .click({ force: true })
+        //Verifica se o logout foi realizado
+        cy.get('#swal2-title')
+            .should('contain', 'Logout realizado')
+    }
+
 }
 
 

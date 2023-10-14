@@ -11,22 +11,22 @@ describe('Validação header', () => {
     const senha = 123456
 
     beforeEach('Acessar a área logada do site na página Painel', () => {
-    
-    //Acessa a home do site
-      commum_page.acessarHome()
-    
-    //Faz o cadastro de usuario
-      header_logado.acessarTelaCadastro()
-      header_logado.preencheNome(nome)
-      header_logado.preencheEmail(email)
-      header_logado.preencheSenha(senha)
 
-    //Faz o login
-      header_logado.acessaLogin()
-      header_logado.preencheEmailLogin(email)
-      header_logado.preencheSenha(senha)
-      header_logado.botaoLogin()
-      header_logado.fechaMsgLoginSucesso()
+        //Acessa a home do site
+        commum_page.acessarHome()
+
+        //Faz o cadastro de usuario
+        header_logado.acessarTelaCadastro()
+        header_logado.preencheNome(nome)
+        header_logado.preencheEmail(email)
+        header_logado.preencheSenha(senha)
+
+        //Faz o login
+        header_logado.acessaLogin()
+        header_logado.preencheEmailLogin(email)
+        header_logado.preencheSenha(senha)
+        header_logado.botaoLogin()
+        header_logado.fechaMsgLoginSucesso()
     })
 
     it('Req-01 Header Visivel no portal com usuário logado', () => {
