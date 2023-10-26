@@ -14,27 +14,29 @@ Link do site:  https://automationpratice.com.br/
 
 📌 **O que foi feito até o momento:**
 
-✅ Simulação de escrita de requisitos do header com e sem login: https://docs.google.com/document/d/16mRGoGVqPzPToMSuWISCN9x5b4GT6Jzn_jVLputOWVU/edit?usp=sharing
+✅ Simulação de escrita de requisitos do header com e sem login e também da página entre em contato: https://docs.google.com/document/d/16mRGoGVqPzPToMSuWISCN9x5b4GT6Jzn_jVLputOWVU/edit?usp=sharing
 
-✅ Escrita dos cenários de Testes do header com e sem login: https://docs.google.com/spreadsheets/d/1pX3kLjYLo7gWFXqZVTFu0mZcjnMpZWAJjplTsEBdWso/edit?usp=sharing
+✅ Escrita dos cenários de Testes do header com e sem login e também da página entre em contato: https://docs.google.com/spreadsheets/d/1pX3kLjYLo7gWFXqZVTFu0mZcjnMpZWAJjplTsEBdWso/edit?usp=sharing
 
-✅ Desenvolvimento dos cenários de Teste do header com e sem login.
+✅ Desenvolvimento dos cenários de Teste do header com e sem login e na página Entre em Contato os cenários referentes ao formulário.
 
 📌 **O que ainda será feito:**
 
-🖥️ Simulação e escrita dos requisitos da página Entre em contato;
+🖥️ Escrita dos cenários da página Entre em contato para a seção de Informações;
 
-🖥️ Escrita dos cenários da página Entre em contato;
-
-🖥️ Implementação dos cenários de testes da página Entre em contato;
+🖥️ Implementação dos cenários de testes da página Entre em contato para a seção de Informações;
 
 🖥️ Melhoria do código já existente de forma a separar os elementos dos métodos em Pages;
 
-🖥️ Verificação com mais atenção na parte de opções do usuário no header logado ao clicar no e-mail, já que tive um pouco de dificuldade para validar tais opções e acredito que pode haver melhorias. No momento, tal ponto funciona e não apresenta falhas, mas acredito que na próxima rodada de tempo para esse projeto seja importante olhar com mais atenção o código e verificar se há outras alternativas.
+🖥️ Refatorar o código. Com certeza há muitas melhorias a serem feitas;
+
+🖥️Revisar escrita de requisitos e cenários de Testes. O foco do projeto é demonstrar domínio do Cypress, mas com certeza é importante deixar os requisitos e os cenários em um bom nível profissional.
 
 🖥️ Por enquanto, o código possui comentários nas partes mais criticas. Na próxima rodada de tempo para esse projeto irei inserir mais comentários para tornar o projeto de mais fácil entendimento.
 
-🖥️ Instalação do relatório mochawesome
+🖥️ Instalação do relatório mochawesome;
+
+🖥️ Configuração de um Workflow Simples.
 
 📌 **Os cenários de testes podem ser encontrados dentro da pasta e2e.**
 
@@ -51,7 +53,7 @@ Link do site:  https://automationpratice.com.br/
 4. Execute os seguintes comandos para instalar o Cypress:
 
     * npm install init;
-    * npm i cypress@13.1.0 -D
+    * npm i cypress@13.3.3 -D
 
 5. Execute o seguinte comando para abrir o Cypress:
      * npx cypress open
@@ -59,4 +61,4 @@ Link do site:  https://automationpratice.com.br/
 6. Execute o seguinte comando para instalar o faker.js:
     * npm install @faker-js/faker --save-dev
        
-💡 Ressalto mais uma vez que esse projeto está em processo inicial e encontra-se atualmente na segunda versão. Com certeza, haverão melhorias de requisitos, escrita de cenários e implementação de testes. No entanto, acredito já ser válido estar no repositório.
+💡 Ressalto mais uma vez que esse projeto está em processo inicial e encontra-se atualmente na terceira versão. Com certeza, haverão melhorias de requisitos, escrita de cenários e implementação de testes. No entanto, acredito já ser válido estar no repositório.

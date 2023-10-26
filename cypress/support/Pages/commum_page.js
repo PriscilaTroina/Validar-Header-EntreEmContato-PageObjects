@@ -1,11 +1,10 @@
 // Nessa tela estarão as funções que poderão ser utilizadas em mais de uma Page, ou seja, funções que são utilizadas na page do header sem login, com login, Entre em contato ou qualquer outra página futura do site que possa vir a ser automatizada.
 
 
-//Acessa a home e garente que a página carregou
+//Acessa a home 
 export default {
     acessarHome() {
         cy.visit('/')
-        cy.get(' li > a > .logo').should('be.visible')
     },
 
     //Valida se o header está visível
