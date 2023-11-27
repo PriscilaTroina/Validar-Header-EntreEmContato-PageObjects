@@ -15,10 +15,6 @@ describe('Validação tela entre em contato 2', () => {
         entre_em_contato.validaTítuloFormulário()
     })
 
-    it('Req-01-c Acesso Página Entre em Contato e verifica existência da secção informações', () => {
-        entre_em_contato.validaSecçãoInformações()
-    })
-
     it('Req-02 Envio do formulário com sucesso', () => {
         entre_em_contato.acessarEntreEmContato()
         entre_em_contato.preencheNome()

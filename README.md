@@ -24,8 +24,6 @@ Link do site:  https://automationpratice.com.br/
 
 🖥️ Refatorar o código. Com certeza há muitas melhorias a serem feitas;
 
-🖥️Revisar escrita de requisitos e cenários de Testes. O foco do projeto é demonstrar domínio do Cypress, mas com certeza é importante deixar os requisitos e os cenários em um bom nível profissional.
-
 🖥️ Instalação do relatório mochawesome;
 
 🖥️ Configuração de um Workflow Simples.

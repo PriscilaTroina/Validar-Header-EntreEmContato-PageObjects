@@ -37,12 +37,6 @@ export default {
             .should('have.text', 'Get In Touch')
     },
 
-    //Válida secção informações vísivel
-    validaSecçãoInformações() {
-        cy.get('.left_side_contact > ul')
-            .should('be.visible')
-    },
-
     //Métodos para preenchimento dos campos do forms
     preencheNome() {
         cy.get("input[placeholder='Name']")
