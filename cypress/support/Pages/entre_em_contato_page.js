@@ -82,7 +82,7 @@ export default {
             .invoke('prop', 'validationMessage')
             .should((text) => {
                 expect(
-                    'Preencha este campo.'
+                    'Please fill out this field.'
                 ).to.eq(text)
             })
     },
@@ -92,7 +92,7 @@ export default {
             .invoke('prop', 'validationMessage')
             .should((text) => {
                 expect(
-                    'Preencha este campo.'
+                    'Please fill out this field.'
                 ).to.eq(text)
             })
     },
@@ -102,7 +102,7 @@ export default {
             .invoke('prop', 'validationMessage')
             .should((text) => {
                 expect(
-                    'Preencha este campo.'
+                    'Please fill out this field.'
                 ).to.eq(text)
             })
     },
@@ -112,7 +112,7 @@ export default {
             .invoke('prop', 'validationMessage')
             .should((text) => {
                 expect(
-                    'Preencha este campo.'
+                    'Please fill out this field.'
                 ).to.eq(text)
             })
     }
