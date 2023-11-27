@@ -51,4 +51,3 @@ Link do site:  https://automationpratice.com.br/
 6. Execute o seguinte comando para instalar o faker.js:
     * npm install @faker-js/faker --save-dev
        
-💡 Ressalto mais uma vez que esse projeto está em processo inicial e encontra-se atualmente na terceira versão. Com certeza, haverão melhorias de requisitos, escrita de cenários e implementação de testes. No entanto, acredito já ser válido estar no repositório.
