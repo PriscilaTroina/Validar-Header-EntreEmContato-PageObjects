@@ -14,19 +14,19 @@ Link do site:  https://automationpratice.com.br/
 
 📌 **O que foi feito até o momento:**
 
-✅ Simulação de escrita de requisitos do header com e sem login e também da página entre em contato: https://docs.google.com/document/d/16mRGoGVqPzPToMSuWISCN9x5b4GT6Jzn_jVLputOWVU/edit?usp=sharing
+✅ Simulação de escrita de requisitos do header com e sem login e também do formulário entre em contato: https://docs.google.com/document/d/16mRGoGVqPzPToMSuWISCN9x5b4GT6Jzn_jVLputOWVU/edit?usp=sharing
 
-✅ Escrita dos cenários de Testes do header com e sem login e também da página entre em contato: https://docs.google.com/spreadsheets/d/1pX3kLjYLo7gWFXqZVTFu0mZcjnMpZWAJjplTsEBdWso/edit?usp=sharing
+✅ Escrita dos cenários de Testes do header com e sem login e também do formulário entre em contato: https://docs.google.com/spreadsheets/d/1pX3kLjYLo7gWFXqZVTFu0mZcjnMpZWAJjplTsEBdWso/edit?usp=sharing
 
 ✅ Desenvolvimento dos cenários de Teste do header com e sem login e na página Entre em Contato os cenários referentes ao formulário.
+
+✅ Configuração de um Workflow simples com o Cypress Cloud. Por enquanto, configurado apenas com o navegador padrão do Cypress:
+
+<img src="/.github/Resultados.png">
 
 📌 **O que ainda será feito:**
 
 🖥️ Refatorar o código. Com certeza há muitas melhorias a serem feitas;
-
-🖥️ Instalação do relatório mochawesome;
-
-🖥️ Configuração de um Workflow Simples.
 
 📌 **Os cenários de testes podem ser encontrados dentro da pasta e2e.**
 
