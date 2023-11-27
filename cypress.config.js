@@ -1,6 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  projectId: 'dxvdej',
   e2e: {
     baseUrl: 'https://automationpratice.com.br/',
     timeout: 4000,
