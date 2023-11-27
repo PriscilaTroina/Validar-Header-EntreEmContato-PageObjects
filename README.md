@@ -1,7 +1,7 @@
 
 Projeto Cypress 002: Validação header com e sem login de usuário e também validação da página 'Entre em Contato'.
 
-💡 Esse é um projeto próprio e feito do zero que consiste em automatizar os fluxos do header do site QAZando que tem duas versões: Usuário deslogado e usuário logado. Além disso, irei validar também a página 'Entre em Contato'.
+💡 Esse é um projeto próprio e feito do zero que consiste em automatizar os fluxos do header do site QAZando que tem duas versões: Usuário deslogado e usuário logado. Além disso, irei validar também o formulário de contato na página Entre em Contato.
 Link do site:  https://automationpratice.com.br/
 
 💡 **Objetivo do Projeto**: Faz algum tempo que eu estudo Cypress. No entanto, sinto que precisava de um projeto próprio e feito do zero para demonstrar conhecimento sobre o framework. Sinto que ficar enchendo o repositório de projetos de cursos talvez não seja a forma mais eficaz. Portanto, ainda que o projeto leve algum tempo para se tornar bem bacana, desde a escrita de requisitos até a implementação dos cenários, acredito que é a melhor maneira de me desafiar e mostrar as pessoas interessadas o meu processo de evolução. Além disso, ressalto sempre que estou em processo de aprendizado, então se você chegar aqui e tiver alguma dica de melhoria, entre em contato. ;)
@@ -22,17 +22,9 @@ Link do site:  https://automationpratice.com.br/
 
 📌 **O que ainda será feito:**
 
-🖥️ Escrita dos cenários da página Entre em contato para a seção de Informações;
-
-🖥️ Implementação dos cenários de testes da página Entre em contato para a seção de Informações;
-
-🖥️ Melhoria do código já existente de forma a separar os elementos dos métodos em Pages;
-
 🖥️ Refatorar o código. Com certeza há muitas melhorias a serem feitas;
 
 🖥️Revisar escrita de requisitos e cenários de Testes. O foco do projeto é demonstrar domínio do Cypress, mas com certeza é importante deixar os requisitos e os cenários em um bom nível profissional.
-
-🖥️ Por enquanto, o código possui comentários nas partes mais criticas. Na próxima rodada de tempo para esse projeto irei inserir mais comentários para tornar o projeto de mais fácil entendimento.
 
 🖥️ Instalação do relatório mochawesome;
 
