@@ -40,14 +40,10 @@ Link do site:  https://automationpratice.com.br/
 
 3. Acesse a pasta onde clonou o repositório via terminal;
 
-4. Execute os seguintes comandos para instalar o Cypress:
-
-    * npm install init;
-    * npm i cypress@13.3.3 -D
+4. Execute o seguinte comando para instalar as dependências do projeto:
+    * npm install;
 
 5. Execute o seguinte comando para abrir o Cypress:
      * npx cypress open
 
-6. Execute o seguinte comando para instalar o faker.js:
-    * npm install @faker-js/faker --save-dev
-       
+
