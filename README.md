@@ -10,9 +10,9 @@ Link do site:  https://automationpratice.com.br/
 
 💡 Projeto desenvolvido em padrão Page Objects utilizando funções do JavaScript.
 
--- **O projeto de forma geral está concluído, mas uma vez que eu tenha tempo entre meus estudos estarei refatorando o código**
+-- **O projeto de forma geral está concluído, mas uma vez que eu tenha tempo entre meus estudos estarei refatorando o código.**
 
-📌 **O que foi feito até o momento:**
+📌 **O que foi feito:**
 
 ✅ Simulação de escrita de requisitos do header com e sem login e também do formulário entre em contato: https://docs.google.com/document/d/16mRGoGVqPzPToMSuWISCN9x5b4GT6Jzn_jVLputOWVU/edit?usp=sharing
 
