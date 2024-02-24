@@ -10,7 +10,7 @@ Link do site:  https://automationpratice.com.br/
 
 💡 Projeto desenvolvido em padrão Page Objects utilizando funções do JavaScript.
 
--- **O projeto está em andamento**
+-- **O projeto de forma geral está concluído, mas uma vez que eu tenha tempo entre meus estudos estarei refatorando o código**
 
 📌 **O que foi feito até o momento:**
 
@@ -23,10 +23,6 @@ Link do site:  https://automationpratice.com.br/
 ✅ Configuração de um Workflow simples com o Cypress Cloud. Por enquanto, configurado apenas com o navegador padrão do Cypress:
 
 <img src="/.github/Resultados.png">
-
-📌 **O que ainda será feito:**
-
-🖥️ Refatorar o código. Com certeza há muitas melhorias a serem feitas;
 
 📌 **Os cenários de testes podem ser encontrados dentro da pasta e2e.**
 
